@@ -28,7 +28,7 @@ public class MergeSort {
         }
 
         int i=0, j=0;
-        int k=l;
+        int k=l;//////k start from left side of sortArr!
         while(i<n1 && j<n2){
             if(L[i]<=R[j]){
                 arr[k] = L[i];
@@ -69,3 +69,4 @@ public class MergeSort {
         System.out.println();
     }
 }
+时间复杂度是o(nlogn)
